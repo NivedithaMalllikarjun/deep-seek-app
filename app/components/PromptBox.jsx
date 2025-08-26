@@ -1,4 +1,4 @@
-import { assets } from '@/assets/assets'
+import { assets } from '@/assets/assets.js'
 import { useAppContext } from '@/context/AppContext';
 import axios from 'axios';
 import Image from 'next/image'
@@ -130,3 +130,4 @@ const PromptBox = ({setIsLoading, isLoading}) => {
 }
 
 export default PromptBox
+
