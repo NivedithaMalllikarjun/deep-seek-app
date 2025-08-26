@@ -1,4 +1,4 @@
-import { assets } from '@/assets/assets'
+import { assets } from '@/assets/assets.js'
 import Image from 'next/image'
 import React, { useEffect } from 'react'
 import Markdown from 'react-markdown'
@@ -61,3 +61,4 @@ const Message = ({role, content}) => {
 }
 
 export default Message
+
